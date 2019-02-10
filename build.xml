@@ -1,8 +1,8 @@
+
 <!-- Basic ant file to build the WebServer with the WebWorker -->
 
 <project default = "compile">
     <target name = "compile">
-        javac srcdir = "." includeantruntime = "false"/>
     </target>
     
     <target name = "build" depends = "compile">
@@ -13,4 +13,4 @@
         <delete file="WebServer.class"/>
         <delete file="WebWorker.class"/>
     </target>
- </project>
+</project>
