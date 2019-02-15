@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title> Catalina's Webserver</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+
+<body>
+
+<h3>TESTFILE</h3>
+
+<p>This file tests the file path connectivity and tag alteration.</p>
+
+<p> Testing the replacement of the "cs371date" tag </p>
+<cs371date>
+<p> Testing the replacement of the "cs371server" tag </p>
+<cs371server>
+    
+    <p>
+    <h2> dramatic chipmunk gif </h2>
+    <img src="chipmunk.gif" alt="Why is chipmunk gif not working?">
+    </p>
+    
+    <p>
+    <h2> Checkmark png </h2>
+    <img src="checkmark.png" alt="Why is checkmark png not working?">
+    </p>
+    
+    <p>
+    <h2> boop jpeg </h2>
+    <img src="boop.jpeg" alt="Why is boop jpeg not working?">
+    </p>
+
+</body>
+
+</html>
