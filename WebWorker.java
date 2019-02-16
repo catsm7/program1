@@ -286,7 +286,7 @@ public class WebWorker implements Runnable
             fName = (System.getProperty("user.dir")+(location)).trim();
          }else if (location.substring(location.length()-4, location.length()).equals(".gif")){
             fName = (System.getProperty("user.dir")+(location)).trim();
-         }else if (location.substring(location.length()-4, location.length()).equals(".ico")){
+         }else if (location.substring(location.length()-4, location.length()).contains(".ico")){
             fName = (System.getProperty("user.dir")+(location)).trim();
          }else{
             fName = (System.getProperty("user.dir")+(location)).trim()+".ico";
